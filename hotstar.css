@@ -1,0 +1,117 @@
+body{
+    background-color:#0f1014;
+}
+.nav-bar{
+    position:fixed;
+    height: 100%;
+    width: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #080808a0;
+    transition: 0.3s;
+    box-shadow:50px 0 100px 100px #080808a0;
+    float:left;
+    z-index:15;
+    
+}
+.nav-bar:hover{
+    box-shadow:75px 0 150px 150px #080808a0;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+ *{
+margin: 0;
+box-sizing: border-box;
+
+} 
+.nav-items{
+    color: white;
+    height:max-content;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    padding-block: 0.8rem;
+    transition: 0.1s;
+    width: 100%;
+}
+.nav-item:hover{
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+.nav-item::after{
+    position:absolute;
+    content: attr(name);
+    width: 10rem;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 2rem;
+    transition: 0.3s;
+    color: #fff0;
+    transform: translateX(-25%);
+}
+.nav-items:hover .nav-item::after{
+    color: #ffff;
+    transform: translateX(0);
+}
+.logo-container{
+    position:absolute;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.logo-container img{
+    transform: scale(1.5);
+}
+.aeg{
+    position:absolute;
+    height:700px;
+    width:100%;
+    z-index:10;
+    left:100px;
+}
+.jailerpic{
+    position:absolute;
+    top:750px;
+    left:95px;
+}
+.newrpic{
+    height:300px;
+    width:250px;
+}
+.jawanpic{
+    position:absolute;
+    top:750px;
+    left:380px;
+}
+.leopic{
+    position:absolute;
+    top:750px;
+    left:660px;
+}
+.a2pic{
+    position:absolute;
+    top:750px;
+    left:960px;
+}
+.head1{
+    color:white;
+    position:absolute;
+    top:710px;
+    left:95px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    z-index:15;
+}
+.newrpic:hover{
+    height:340px;
+    width:270px;
+    transition:0.3s;
+}
