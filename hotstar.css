@@ -8,7 +8,6 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: #080808a0;
     transition: 0.3s;
-    box-shadow:50px 0 100px 100px #080808a0;
     float:left;
     z-index:15;
     
@@ -70,10 +69,10 @@ box-sizing: border-box;
     transform: scale(1.5);
 }
 .aeg{
-    position:absolute;
+    position:fixed;
     height:700px;
-    width:100%;
-    z-index:10;
+    width:93%;
+    z-index:-1;
     left:100px;
 }
 .jailerpic{
@@ -82,23 +81,28 @@ box-sizing: border-box;
     left:95px;
 }
 .newrpic{
-    height:300px;
-    width:250px;
+    height:200px;
+    width:150px;
 }
 .jawanpic{
     position:absolute;
     top:750px;
-    left:380px;
+    left:270px;
 }
 .leopic{
     position:absolute;
     top:750px;
-    left:660px;
+    left:445px;
 }
 .a2pic{
     position:absolute;
     top:750px;
-    left:960px;
+    left:620px;
+}
+.alonepic{
+    position:absolute;
+    top:750px;
+    left:805px;
 }
 .head1{
     color:white;
@@ -108,10 +112,44 @@ box-sizing: border-box;
     font-size:20px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
-    z-index:15;
+    z-index:14;
 }
 .newrpic:hover{
-    height:340px;
-    width:270px;
+    transform:scale(1.4);
     transition:0.3s;
+    transition-delay:0.2;
+}
+.aeglogo{
+    height:130px;
+    width:300px;
+    position:absolute;
+    top:400px;
+    left:130px;
+    border-radius:10px;
+}
+.scroll{
+    z-index:2;
+}
+.discr{
+    color:white;
+    position:absolute;
+    top:540px;
+    left:170px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:18px;
+}
+.about{
+    color:white;
+    width:600px;
+    position:absolute;
+    top:580px;
+    left: 130px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.secrow{
+    position: absolute;
+    top:230px;
 }
