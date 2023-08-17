@@ -1,15 +1,12 @@
-body{
-    background-color:#0f1014;
-}
 .nav-bar{
     position:fixed;
     height: 100%;
-    width: 6rem;
+    width:7%;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #080808a0;
+    background-color: #0f1014;
     transition: 0.3s;
     float:left;
-    z-index:15;
+    z-index:18;
     
 }
 .nav-bar:hover{
@@ -62,15 +59,16 @@ box-sizing: border-box;
 }
 .logo-container{
     position:absolute;
+    left:15px;
     padding-top: 2rem;
-    padding-left: 1rem;
+    padding-left: 0.7rem;
 }
 .logo-container img{
     transform: scale(1.5);
 }
 .aeg{
     position:fixed;
-    height:700px;
+    height:100%;
     width:93%;
     z-index:-1;
     left:100px;
@@ -78,7 +76,8 @@ box-sizing: border-box;
 .jailerpic{
     position:absolute;
     top:750px;
-    left:95px;
+    left:130px;
+    z-index:15 !important;
 }
 .newrpic{
     height:200px;
@@ -87,32 +86,54 @@ box-sizing: border-box;
 .jawanpic{
     position:absolute;
     top:750px;
-    left:270px;
+    left:300px;
+    z-index:15 !important;
 }
-.leopic{
+.thorpic{
     position:absolute;
     top:750px;
-    left:445px;
+    left:475px;
+    z-index:15 !important;
 }
-.a2pic{
+.mavepic{
     position:absolute;
     top:750px;
-    left:620px;
+    left:650px;
+    z-index:15 !important;
 }
 .alonepic{
     position:absolute;
     top:750px;
-    left:805px;
+    left:830px;
+    z-index:15 !important;
+}
+.dppic{
+    position:absolute;
+    top:750px;
+    left:1010px;
+    z-index:15 !important;
+}
+.indpic{
+    position:absolute;
+    top:750px;
+    left:1190px;
+    z-index:15 !important;
+}
+.sipic{
+    position:absolute;
+    top:750px;
+    left:1370px;
+    z-index:15 !important;
 }
 .head1{
     color:white;
     position:absolute;
     top:710px;
-    left:95px;
-    font-size:20px;
+    left:130px;
+    font-size:23px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
-    z-index:14;
+    z-index:11;
 }
 .newrpic:hover{
     transform:scale(1.4);
@@ -120,36 +141,129 @@ box-sizing: border-box;
     transition-delay:0.2;
 }
 .aeglogo{
-    height:130px;
-    width:300px;
+    color: white;
+    font-size:50px;
     position:absolute;
-    top:400px;
+    top:330px;
     left:130px;
-    border-radius:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.aeglogo::first-letter{
+    font-size: 110px;
 }
 .scroll{
-    z-index:2;
+    z-index:18;
+    height: 180%;
+    width: 100%;
+    background:linear-gradient(rgba(255, 255, 255, 0.171),black);
 }
 .discr{
     color:white;
     position:absolute;
-    top:540px;
+    top:440px;
     left:170px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size:18px;
+    word-spacing:10px;
 }
 .about{
     color:white;
-    width:600px;
+    width:500px;
     position:absolute;
-    top:580px;
+    top:480px;
     left: 130px;
     text-align:left;
+    font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+button{
+    background-color: rgba(255, 255, 255, 0.096);
+    color: white;
+    border:1px solid white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius:10px;
+    height:50px;
+}
+button:hover{
+    transform:scale(1.1);
+    background-color: rgba(255, 255, 255, 0.171);
+}
+.b1{
+    width:360px;
+    position:absolute;
+    top:630px;
+    left: 130px;
+}
+.b2{
+    width:50px;
+    position:absolute;
+    top:630px;
+    left: 510px;
+}
+.head2{
+    color:white;
+    position:absolute;
+    top:1010px;
+    left:130px;
+    font-size:23px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    z-index:14;
+}
 .secrow{
     position: absolute;
-    top:230px;
+    top:300px;
+}
+.tanpic{
+    position:absolute;
+    top:750px;
+    left:130px;
+    z-index:15 !important;
+}
+.ratpic{
+    position:absolute;
+    top:750px;
+    left:300px;
+    z-index:15 !important;
+}
+.iopic{
+    position:absolute;
+    top:750px;
+    left:475px;
+    z-index:15 !important;
+}
+.bravepic{
+    position:absolute;
+    top:750px;
+    left:650px;
+    z-index:15 !important;
+}
+.uppic{
+    position:absolute;
+    top:750px;
+    left:830px;
+    z-index:15 !important;
+}
+.lucapic{
+    position:absolute;
+    top:750px;
+    left:1010px;
+    z-index:15 !important;
+}
+.mupic{
+    position:absolute;
+    top:750px;
+    left:1190px;
+    z-index:15 !important;
+}
+.redpic{
+    position:absolute;
+    top:750px;
+    left:1370px;
+    z-index:15 !important;
 }
